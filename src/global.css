@@ -11,9 +11,39 @@ body {
     font: 400 14px Roboto, sans-serif;
     background: #f0f0f5;
     -webkit-font-smoothing: antialiased;
+
+    display: flex;
+    justify-content: center;
 }
 
 a {
     text-transform: capitalize;
     text-decoration: none;
+}
+
+.header {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header li {
+    padding: 1rem;
+}
+
+.header li:hover {
+    background: black;
+}
+
+.header li a {
+    color: black;
+}
+
+.header li:hover a {
+    color: white;
+}
+
+ul {
+    list-style: none;
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './styles.css';
 
 import { doGet, getIdFromUrl } from '../../helpers/ApiHelper';
 
@@ -28,7 +29,7 @@ const Home = () => {
     return (
         <>
             <h1>Pokémons</h1>
-            <ul>{pokemonList}</ul>
+            <ul className="pokemon-list">{pokemonList}</ul>
         </>
     );
 }
